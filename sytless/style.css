@@ -1,8 +1,7 @@
 *{
   font-family:"Open Sans", serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
   text-decoration: none;
 
@@ -14,4 +13,54 @@
   --Bg:#FFF8F3;
   --White:#fff;
   --Button:#FD6E0A;
+}
+header{
+  background-color: var(--Bg);
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+ 
+
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+}
+.logo{
+  color: var(--Primary);
+  font-size: 45px;
+  font-weight: 800;
+}
+.logo span{
+  color: var(--Button);
+}
+nav ul li {
+  display: inline-block;
+  align-items: center;
+}
+nav li a{
+  margin-right: 30px;
+  color:var(--Text);
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn-1{
+  background-color: var(--Button);
+  color: var(--White);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px;
+}
+.hero-banner{
+  display: flex;
+  align-items: center;
+  padding: 0px 30px 0px 200px;
+}
+.hero-img{
+  width: 580px;
 }
